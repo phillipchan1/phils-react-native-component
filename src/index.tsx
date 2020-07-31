@@ -10,7 +10,7 @@ export default class MyComponent extends React.Component {
   render() {
     return (
       <View>
-        <Text> My Component!! </Text>
+        <Text> My Component using typescript!! </Text>
       </View>
     )
   }
