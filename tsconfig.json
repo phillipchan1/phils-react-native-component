@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "outDir": "./",
+    "outDir": "build",
     "module": "commonjs",
     "target": "es5",
     "lib": ["es2017"],
@@ -14,14 +14,6 @@
     "noImplicitAny": true,
     "strictNullChecks": true
   },
-  "exclude": [
-    "node_modules",
-    "build",
-    "scripts",
-    "acceptance-tests",
-    "webpack",
-    "jest",
-    "src/setupTests.ts"
-  ],
+  "exclude": ["node_modules", "build", "acceptance-tests", "src/setupTests.ts"],
   "types": ["typePatches"]
 }
