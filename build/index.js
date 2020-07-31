@@ -24,7 +24,7 @@ var MyComponent = /** @class */ (function (_super) {
     }
     MyComponent.prototype.render = function () {
         return (React.createElement(react_native_1.View, null,
-            React.createElement(react_native_1.Text, null, " My Component using typescript!! 2.3 ")));
+            React.createElement(react_native_1.Text, null, " My Component using typescript!! 3.0.2 ")));
     };
     return MyComponent;
 }(React.Component));
