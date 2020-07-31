@@ -1,8 +1,8 @@
-import React, { Component } from 'react'
+import * as React from 'react'
 import { View, Text } from 'react-native'
 
-export default class MyComponent extends Component {
-  constructor(props) {
+export default class MyComponent extends React.Component {
+  constructor(props: Readonly<{}>) {
     super(props)
     this.state = {}
   }
